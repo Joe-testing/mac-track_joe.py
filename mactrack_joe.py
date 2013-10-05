@@ -47,7 +47,7 @@ while ip:
     try:
         c = child.expect('--More--', timeout=2)
         cdp_ip = re.findall("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", child.before) #Find IP for next switch in child.before
-        end_ip = ''.join(cdp_ip[0]) #add first item from cdp_ip to slut_ip(end_ip)
+        end_ip = ''.join(cdp_ip[0]) #add first item from cdp_ip to end_ip
         print '::::::'
         print end_ip
         print '::::::'
