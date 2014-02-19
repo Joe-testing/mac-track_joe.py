@@ -10,8 +10,8 @@
 ##                                                             #
 ## You can use part of the mac, or the whole thing.            #
 ## Syntax:                                                     #
-## ex1: python mactrack_pie.py 10.0.0.10 b123                  #
-## ex2: python mactrack_pie.py 10.0.0.10 1q2w.3e4r.5t56        #
+## ex1: python mactrack_joe.py 10.0.0.10 b123                  #
+## ex2: python mactrack_joe.py 10.0.0.10 1q2w.3e4r.5t56        #
 ################################################################
 
 import sys,pexpect,re,time
